@@ -31,7 +31,13 @@ const Nav = () => {
 		>
 			<nav className="flex justify-between items-center max-container">
 				<a href="/">
-					<img src={headerLogo} alt="Logo" width={130} height={29} />
+					<img
+						src={headerLogo}
+						alt="Logo"
+						width={35}
+						height={35}
+						className="object-contain"
+					/>
 				</a>
 				<ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
 					{navLinks.map((item) => (
