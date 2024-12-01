@@ -11,7 +11,7 @@ export default {
 			'2xl': ['24px', '29.26px'],
 			'3xl': ['28px', '50px'],
 			'4xl': ['48px', '58px'],
-			'8xl': ['96px', '106px'],
+			'8xl': ['89px', '106px'],
 		},
 		extend: {
 			fontFamily: {
@@ -19,10 +19,10 @@ export default {
 				montserrat: ['Montserrat', 'sans-serif'],
 			},
 			colors: {
-				primary: '#ECEEFF',
-				'coral-red': '#FF6452',
-				'slate-gray': '#6D6D6D',
-				'pale-blue': '#F5F6FF',
+				primary: '#E6F3FF',
+				'coral-red': '#3B82F6',
+				'slate-gray': '#4B5563',
+				'pale-blue': '#F0F9FF',
 				'white-400': 'rgba(255, 255, 255, 0.80)',
 			},
 			boxShadow: {

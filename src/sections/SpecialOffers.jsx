@@ -1,6 +1,6 @@
-import { arrowRight } from '../assets/icons';
 import { offer } from '../assets/images';
 import Button from '../components/Button';
+import OutlineButton from '../components/OutlineButton';
 
 const SpecialOffers = () => {
 	return (
@@ -27,13 +27,8 @@ const SpecialOffers = () => {
 					great quality and comfort for your feet.
 				</p>
 				<div className="mt-11 flex flex-wrap gap-4">
-					<Button label="View Details" iconURL={arrowRight} />
-					<Button
-						label="Learn More"
-						backgroundColor="bg-white"
-						borderColor="border-slate-gray"
-						textColor="text-slate-gray"
-					/>
+					<Button label="View Details" />
+					<OutlineButton label="Learn More" />
 				</div>
 			</div>
 		</section>
